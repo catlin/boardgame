@@ -1,4 +1,12 @@
 Boardgame::Application.routes.draw do
+  resources :categorizations
+
+  resources :categories
+
+  resources :publishers
+
+  resources :products
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
